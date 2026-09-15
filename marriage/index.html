@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nikkah Invitation | Danish & Zikena</title>
+
+    <!-- Importing elegant fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Linking your separate CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================================================
+         SECTION 1: INTRO ENVELOPE VIDEO
+         ========================================================================== -->
+    <div id="intro-container">
+        <video id="invite-video" class="intro-video" src="starter-envelope.mp4" muted playsinline
+            preload="auto"></video>
+    </div>
+
+    <!-- ==========================================================================
+         HERO SECTION: WELCOME CARD ON TOP + VIDEO BACKGROUND UNDERNEATH
+         ========================================================================== -->
+    <section class="fullscreen-video-section hero-stacked-layout">
+        <div class="fullscreen-video-bg">
+            <video class="bg-video ambient-video full-bg-vid" src="WhatsApp Video 2026-09-14 at 1.38.01 AM.mp4" muted
+                loop playsinline autoplay></video>
+            <div class="video-fog-overlay light-fog creamy-vignette-fog"></div>
+        </div>
+
+        
+    </section>
+
+    <!-- Main Content Flow interleaved with Full-Screen Visuals -->
+    <section id="part2-section">
+        <div class="part2-content">
+
+            <!-- ==========================================================================
+                 SECTION 2: SCRATCH CARDS (DATE REVEAL: 05 / OCT / 2026)
+                 ========================================================================== -->
+            <div class="section-block scratch-section-wrap scroll-fade">
+                <p class="subtitle">Scratch to Reveal the Date</p>
+                <p class="rule-arabic" dir="rtl">امسح لمعرفة تاريخ الحفل</p>
+                <div class="decorator">✦ ✧ ✦</div>
+
+                <div class="scratch-squares-row">
+                    <div class="scratch-square-box scroll-fade">
+                        <canvas class="scratch-canvas" width="105" height="105"></canvas>
+                        <span class="scratch-text">05</span>
+                        <label>Day</label>
+                    </div>
+                    <div class="scratch-square-box scroll-fade">
+                        <canvas class="scratch-canvas" width="105" height="105"></canvas>
+                        <span class="scratch-text">OCT</span>
+                        <label>Month</label>
+                    </div>
+                    <div class="scratch-square-box scroll-fade">
+                        <canvas class="scratch-canvas" width="105" height="105"></canvas>
+                        <span class="scratch-text">2026</span>
+                        <label>Year</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==========================================================================
+                 SECTION 3: MESSAGE / INVITATION IMAGE (Full-Bleed Golden Glow)
+                 ========================================================================== -->
+            <div class="section-block message-image-section scroll-fade">
+                <p class="subtitle">A Special Invitation</p>
+                <p class="rule-arabic" dir="rtl">دعوة خاصة لكم</p>
+                <div class="decorator">✦ ✧ ✦</div>
+                <div class="full-bleed-invite-wrap scroll-fade">
+                    <img src="Invitation.jpeg" alt="Nikkah Invitation Card" class="full-bleed-invite-img">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         FULLSCREEN AMBIENT IMAGE 2 (After Scratch & Invitation)
+         ========================================================================== -->
+    <section class="fullscreen-video-section">
+        <div class="fullscreen-video-bg">
+            <img src="weddingpic2.jpeg" alt="Ambient Visual" class="bg-video ambient-video full-bg-vid">
+            <div class="video-fog-overlay light-fog creamy-vignette-fog"></div>
+        </div>
+    </section>
+
+    <section id="part2-section-2">
+        <div class="part2-content">
+
+            <!-- ==========================================================================
+                 SECTION 4: ORDER OF EVENTS (TIMELINE)
+                 ========================================================================== -->
+            <div class="section-block itinerary-wrapper scroll-fade">
+                <p class="subtitle">Order of Events</p>
+                <p class="rule-arabic" dir="rtl">برنامج الحفل</p>
+                <div class="decorator">✦</div>
+
+                <div class="timeline-center-track" id="timelineTrack">
+                    <!-- Moving Flower Marker -->
+                    <div id="timeline-flower-marker">
+                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="5" fill="#D4AF37" />
+                            <path d="M16 4C14 8 11 8 11 11C11 14 14 14 16 18C18 14 21 14 21 11C21 8 18 8 16 4Z"
+                                fill="#F5E6CC" stroke="#D4AF37" stroke-width="1.2" />
+                            <path d="M16 28C14 24 11 24 11 21C11 18 14 18 16 14C18 18 21 18 21 21C21 24 18 24 16 28Z"
+                                fill="#F5E6CC" stroke="#D4AF37" stroke-width="1.2" />
+                            <path d="M4 16C8 14 8 11 11 11C14 11 14 14 18 16C14 18 14 21 11 21C8 21 8 18 4 16Z"
+                                fill="#F5E6CC" stroke="#D4AF37" stroke-width="1.2" />
+                            <path d="M28 16C24 14 24 11 21 11C18 11 18 14 14 16C18 18 18 21 21 21C24 21 24 18 28 16Z"
+                                fill="#F5E6CC" stroke="#D4AF37" stroke-width="1.2" />
+                        </svg>
+                    </div>
+
+                    <!-- Row 1 (Left) -->
+                    <div class="timeline-row left-side scroll-fade">
+                        <div class="timeline-content-box">
+                            <div class="time-badge">7:00 PM</div>
+                            <h4>Reception & Welcome</h4>
+                            <p class="rule-arabic" dir="rtl">الاستقبال والترحيب</p>
+                        </div>
+                        <div class="timeline-checkpoint-node"></div>
+                        <div class="timeline-spacer"></div>
+                    </div>
+
+                    <!-- Row 2 (Right) -->
+                    <div class="timeline-row right-side scroll-fade">
+                        <div class="timeline-spacer"></div>
+                        <div class="timeline-checkpoint-node"></div>
+                        <div class="timeline-content-box">
+                            <div class="time-badge">10:00 PM</div>
+                            <h4>First Look (Zina 1)</h4>
+                            <p class="rule-arabic" dir="rtl">الزينة اللولة</p>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 (Left) -->
+                    <div class="timeline-row left-side scroll-fade">
+                        <div class="timeline-content-box">
+                            <div class="time-badge">12:00 PM</div>
+                            <h4>Second Look <br>(Zina 2)</br> </h4>
+                            <p class="rule-arabic" dir="rtl">الزينة الثانية</p>
+                        </div>
+                        <div class="timeline-checkpoint-node"></div>
+                        <div class="timeline-spacer"></div>
+                    </div>
+
+                    <!-- Row 4 (Right) -->
+                    <div class="timeline-row right-side scroll-fade">
+                        <div class="timeline-spacer"></div>
+                        <div class="timeline-checkpoint-node"></div>
+                        <div class="timeline-content-box">
+                            <div class="time-badge">1:30 AM</div>
+                            <h4>Cake Cutting Ceremony</h4>
+                            <p class="rule-arabic" dir="rtl">تقطيع الكيك</p>
+                        </div>
+                    </div>
+
+                    <!-- Row 5 (Left) -->
+                    <div class="timeline-row left-side scroll-fade">
+                        <div class="timeline-content-box">
+                            <div class="time-badge">3:00 AM</div>
+                            <h4>Grand Dinner</h4>
+                            <p class="rule-arabic" dir="rtl">العشاء</p>
+                        </div>
+                        <div class="timeline-checkpoint-node"></div>
+                        <div class="timeline-spacer"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==========================================================================
+                 SECTION 5: COUNTDOWN TIMER (TARGET: 05 / 10 / 2026)
+                 ========================================================================== -->
+            <div class="section-block countdown-section-wrap scroll-fade">
+                <p class="subtitle">Counting Down To Forever</p>
+                <p class="rule-arabic" dir="rtl">العد التنازلي لليلة العمر</p>
+                <div class="decorator">✦ ✧ ✦</div>
+                <div id="countdown-timer" class="countdown-grid">
+                    <div class="time-block scroll-fade">
+                        <span id="days">00</span>
+                        <small>Days</small>
+                    </div>
+                    <div class="time-block scroll-fade">
+                        <span id="hours">00</span>
+                        <small>Hours</small>
+                    </div>
+                    <div class="time-block scroll-fade">
+                        <span id="minutes">00</span>
+                        <small>Mins</small>
+                    </div>
+                    <div class="time-block scroll-fade">
+                        <span id="seconds">00</span>
+                        <small>Secs</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         FULLSCREEN AMBIENT IMAGE 3 (After Countdown)
+         ========================================================================== -->
+    <section class="fullscreen-video-section">
+        <div class="fullscreen-video-bg">
+            <img src="weddingpic3.jpeg" alt="Ambient Visual" class="bg-video ambient-video full-bg-vid">
+            <div class="video-fog-overlay light-fog creamy-vignette-fog"></div>
+        </div>
+    </section>
+
+    <section id="part2-section-3">
+        <div class="part2-content">
+
+            <!-- ==========================================================================
+                 SECTION 6: LOCATION (PALAI : AL YAKOUT)
+                 ========================================================================== -->
+            <div class="section-block location-section-wrap scroll-fade">
+                <p class="subtitle">Venue & Location</p>
+                <p class="rule-arabic" dir="rtl">مكان وموقع الحفل</p>
+                <div class="decorator">✦ ✧ ✦</div>
+                <div class="venue-card scroll-fade">
+                    <div class="venue-image-frame blended-card">
+                        <img src="placeof the wedding .jpeg" alt="Palai Al Yakout Wedding Venue"
+                            class="blended-paper-img">
+                    </div>
+                    <h3 class="venue-name">Palai : Al Yakout</h3>
+                    <p class="venue-address">Tangier, Morocco</p>
+                    <p class="rule-arabic" dir="rtl">قصر الياقوت - طنجة، المغرب</p>
+                    <a href="https://maps.app.goo.gl/uRXFgnAaqnVvsqMW8?g_st=iw" target="_blank"
+                        rel="noopener noreferrer" class="venue-map-btn">
+                        <span>Open in Google Maps</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                            <polyline points="15 3 21 3 21 9" />
+                            <line x1="10" y1="14" x2="21" y2="3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ==========================================================================
+                 SECTION 7: CEREMONY RULES & GUIDELINES
+                 ========================================================================== -->
+            <div class="section-block rules-section-wrap scroll-fade">
+                <p class="subtitle">Ceremony Guidelines</p>
+                <p class="rule-arabic" dir="rtl">إرشادات الحفل</p>
+                <div class="decorator">✦ ✧ ✦</div>
+                <div class="rules-card-container">
+
+                    <div class="rule-item scroll-fade">
+                        <span class="rule-icon">📵</span>
+                        <div>
+                            <h4>No Photography</h4>
+                            <p>To make our evening complete, we kindly ask you not to take photos to ensure the privacy
+                                of the celebration.</p>
+                            <p class="rule-arabic" dir="rtl">ليكمل جمال ليلتنا، نرجو منكم عدم التصوير لضمان خصوصية الحفل
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item scroll-fade">
+                        <span class="rule-icon">🕊️</span>
+                        <div>
+                            <h4>Adults Only</h4>
+                            <p>We sincerely apologize and to avoid any embarrassment, the event is strictly for adults
+                                only and children cannot be accommodated.</p>
+                            <p class="rule-arabic" dir="rtl">نعتذر بشدة ومنعاً للإحراج، الحفل مخصص للبالغين فقط ولا
+                                تتوفر إمكانية استقبال الأطفال نهائياً.</p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item scroll-fade">
+                        <span class="rule-icon">⏰</span>
+                        <div>
+                            <h4>Punctuality</h4>
+                            <p>We kindly ask you to be punctual so we can begin our story together on time.</p>
+                            <p class="rule-arabic" dir="rtl">نرجو منكم التكرم بالالتزام بالوقت لنبدأ حكايتنا معاً في
+                                الموعد</p>
+                        </div>
+                    </div>
+
+                    <div class="rule-item scroll-fade">
+                        <span class="rule-icon">🪑</span>
+                        <div>
+                            <h4>Reserved Seating</h4>
+                            <p>Your presence is an honor to us, and please note that seating is reserved and limited to
+                                holders of this invitation only.</p>
+                            <p class="rule-arabic" dir="rtl">حضوركم شرف لنا، ونحيطكم علماً أن المقاعد مخصصة ومحدودة
+                                لحاملي هذه الدعوة فقط.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         FULLSCREEN AMBIENT IMAGE 4 (After Guidelines)
+         ========================================================================== -->
+    <section class="fullscreen-video-section">
+        <div class="fullscreen-video-bg">
+            <img src="weddingpic4.png" alt="Ambient Visual" class="bg-video ambient-video full-bg-vid">
+            <div class="video-fog-overlay light-fog creamy-vignette-fog"></div>
+        </div>
+    </section>
+
+    <section id="part2-section-4">
+        <div class="part2-content">
+
+            <!-- ==========================================================================
+                 SECTION 8: WHATSAPP RSVP CONFIRMATION
+                 ========================================================================== -->
+            <div class="section-block rsvp-section-wrap scroll-fade">
+                <p class="subtitle">RSVP Confirmation</p>
+                <p class="rule-arabic" dir="rtl">تأكيد الحضور</p>
+                <div class="decorator">✦ ✧ ✦</div>
+
+                <div class="rsvp-content scroll-fade">
+                    <p class="rsvp-text-en">If you accept the invite, please confirm:</p>
+                    <p class="rule-arabic" dir="rtl">إذا كنت تقبل الدعوة، يرجى التأكيد:</p>
+
+                    <a href="#" id="whatsapp-rsvp-btn" class="whatsapp-rsvp-btn">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.766-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.115.553 4.103 1.522 5.836l-1.522 5.56 5.698-1.493c1.694.924 3.626 1.455 5.688 1.455 6.627 0 12-5.373 12-12 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        <span>Confirm via WhatsApp / تأكيد عبر واتساب</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ==========================================================================
+                 SECTION 9: THANK YOU MESSAGE
+                 ========================================================================== -->
+            <div class="section-block thank-you-section-wrap scroll-fade">
+                <p class="subtitle">With Love & Gratitude</p>
+                <p class="rule-arabic" dir="rtl">بكل الحب والامتنان</p>
+                <div class="decorator">✦ ✧ ✦</div>
+
+                <div class="thank-you-content">
+                    <p class="thank-you-text-en">
+                        Thank you for sharing in our joy and celebrating this beautiful moment with us.<br>
+                        Your love, support, and presence mean more to us than words can express. As we begin this new
+                        chapter together, we are grateful to have such wonderful people by our side.<br>
+                        We look forward to creating unforgettable memories with you on our special day.
+                    </p>
+                    <p class="rule-arabic thank-you-text-ar" dir="rtl">
+                        شكراً لمشاركتكم فرحتنا واحتفالكم معنا بهذا اليوم المميز.<br>
+                        حبكم ودعمكم وحضوركم يعني لنا الكثير أكثر مما تعبر عنه الكلمات. ونحن نبدأ هذا الفصل الجديد معاً،
+                        نحن ممتنون لوجود مثل هؤلاء الرائعين بجانبنا.<br>
+                        نتطلع لصنع ذكريات لا تُنسى معكم في يومنا الخاص.
+                    </p>
+                    <div class="thank-you-signature">
+                        <span class="signature-line">With all our love and gratitude,</span>
+                        <h2 class="cursive-title signature-names">Taib & Shaimae 🤍</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Logic Script -->
+    <script>
+        // Force scroll to top on refresh
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+
+        document.addEventListener("DOMContentLoaded", () => {
+            window.scrollTo(0, 0);
+
+            const introContainer = document.getElementById("intro-container");
+            const introVideo = document.getElementById("invite-video");
+            let hasStarted = false;
+
+            const dismissIntro = () => {
+                introContainer.classList.add("fade-out");
+                window.scrollTo(0, 0);
+            };
+
+            introContainer.addEventListener("click", () => {
+                if (!hasStarted) {
+                    hasStarted = true;
+                    introVideo.play().catch(() => {
+                        dismissIntro();
+                    });
+                } else {
+                    dismissIntro();
+                }
+            });
+
+            introVideo.addEventListener("ended", dismissIntro);
+
+            // --- WhatsApp RSVP Button Setup ---
+            const ownerPhoneNumber = "212720237636";
+            const whatsappBtn = document.getElementById("whatsapp-rsvp-btn");
+
+            if (whatsappBtn) {
+                const messageText = encodeURIComponent(
+                    "Hello! I am confirming that I accept the invitation to the Nikkah ceremony of Taib & Shaimae on 05/10/2026. Looking forward to celebrating with you! ✨\n\n" +
+                    "مرحباً! أؤكد قبول الدعوة لحضور حفل زفاف طيب و شيماء بتاريخ 05/10/2026. في أمان الله."
+                );
+                whatsappBtn.href = `https://wa.me/${ownerPhoneNumber}?text=${messageText}`;
+            }
+
+            // --- Scratch Canvas Setup ---
+            const canvases = document.querySelectorAll('.scratch-canvas');
+            canvases.forEach(canvas => {
+                const ctx = canvas.getContext('2d');
+
+                const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+                gradient.addColorStop(0, '#d4af37');   // Classic Gold
+                gradient.addColorStop(0.35, '#f5e6cc');// Warm Cream
+                gradient.addColorStop(0.65, '#e6c888');// Soft Champagne Gold
+                gradient.addColorStop(1, '#c59b27');   // Deep Gold
+
+                ctx.fillStyle = gradient;
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+                ctx.strokeStyle = 'rgba(255, 248, 230, 0.45)';
+                ctx.lineWidth = 1.5;
+                ctx.strokeRect(5, 5, canvas.width - 10, canvas.height - 10);
+
+                ctx.fillStyle = '#7a6b5d';
+                ctx.font = 'italic 600 13px "Playfair Display", serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText('Scratch', canvas.width / 2, canvas.height / 2);
+
+                let isDrawing = false;
+
+                function scratch(x, y) {
+                    ctx.globalCompositeOperation = 'destination-out';
+                    ctx.beginPath();
+                    ctx.arc(x, y, 18, 0, Math.PI * 2);
+                    ctx.fill();
+                }
+
+                function getPos(e, canvas) {
+                    const rect = canvas.getBoundingClientRect();
+                    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+                    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+                    return { x: clientX - rect.left, y: clientY - rect.top };
+                }
+
+                canvas.addEventListener('mousedown', (e) => { isDrawing = true; const p = getPos(e, canvas); scratch(p.x, p.y); });
+                canvas.addEventListener('mousemove', (e) => { if (!isDrawing) return; const p = getPos(e, canvas); scratch(p.x, p.y); });
+                window.addEventListener('mouseup', () => isDrawing = false);
+
+                canvas.addEventListener('touchstart', (e) => { isDrawing = true; const p = getPos(e, canvas); scratch(p.x, p.y); });
+                canvas.addEventListener('touchmove', (e) => { if (!isDrawing) return; const p = getPos(e, canvas); scratch(p.x, p.y); });
+                canvas.addEventListener('touchend', () => isDrawing = false);
+            });
+
+            // --- Countdown Timer Logic (Target: 2026-10-05) ---
+            const targetDate = new Date('2026-10-05T00:00:00').getTime();
+
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const diff = targetDate - now;
+
+                if (diff > 0) {
+                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                    const daysEl = document.getElementById('days');
+                    const hoursEl = document.getElementById('hours');
+                    const minutesEl = document.getElementById('minutes');
+                    const secondsEl = document.getElementById('seconds');
+
+                    if (daysEl) daysEl.textContent = String(days).padStart(2, '0');
+                    if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
+                    if (minutesEl) minutesEl.textContent = String(minutes).padStart(2, '0');
+                    if (secondsEl) secondsEl.textContent = String(seconds).padStart(2, '0');
+                }
+            }
+
+            setInterval(updateCountdown, 1000);
+            updateCountdown();
+
+            // --- Reverse Fade-Away Scroll Animation & Flower Tracker ---
+            const fadeElements = document.querySelectorAll('.scroll-fade');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('appear');
+                    }
+                });
+            }, {
+                threshold: 0.15,
+                rootMargin: '0px 0px -40px 0px'
+            });
+
+            fadeElements.forEach(el => observer.observe(el));
+
+            const track = document.getElementById('timelineTrack');
+            const flowerMarker = document.getElementById('timeline-flower-marker');
+            const nodes = document.querySelectorAll('.timeline-checkpoint-node');
+
+            function updateFlowerPosition() {
+                if (!track || !flowerMarker || nodes.length === 0) return;
+
+                const trackRect = track.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+
+                let progress = (windowHeight * 0.55 - trackRect.top) / trackRect.height;
+                progress = Math.max(0, Math.min(1, progress));
+
+                const maxTop = track.offsetHeight - 20;
+                const currentTop = progress * maxTop;
+                flowerMarker.style.top = `${currentTop}px`;
+            }
+
+            window.addEventListener('scroll', updateFlowerPosition, { passive: true });
+            updateFlowerPosition();
+        });
+    </script>
+</body>
+
+</html>
